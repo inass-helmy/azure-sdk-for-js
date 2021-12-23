@@ -19,8 +19,8 @@ You must provide one of the parameters.
 param(
     [string]$IdentityName,
     [string]$IdentityEmail,
-    [string]$ToolVersion="1.0.0-dev.20211221.1",
-    [string]$DevOpsFeed = "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json"
+    [string]$ToolVersion,
+    [string]$DevOpsFeed,
 )
 
 . (Join-Path $PSScriptRoot common.ps1)
